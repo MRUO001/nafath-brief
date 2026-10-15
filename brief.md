@@ -25,9 +25,21 @@ Resource: Permissions on Android - Android Developers - https://developer.androi
 
 ## Networking
 
+DNS over HTTPS (DoH) sends DNS queries and answers inside HTTPS, so they are encrypted and the DoH server is authenticated. This protects citizens on public Wi-Fi from attackers who watch their lookups or divert them to a rogue server. DoH does not hide queries from the DoH resolver itself, which can still link them to the user, and it does not prove that DNS answers are authentic; that is the job of DNSSEC.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
+
 ## Cybersecurity
 
+Phishing-resistant authentication stops an attacker with a fake login page from capturing a credential they can reuse. CISA rates two forms as phishing-resistant: FIDO/WebAuthn (security keys or authenticators built into phones and laptops) and PKI-based methods such as smart cards. One-time codes from an app or token, push prompts, and SMS or voice codes do not qualify. A user can be tricked into giving them to a fake site, and SMS is also exposed to SIM swap and SS7 attacks.
+
+Resource: Implementing Phishing-Resistant MFA (CISA fact sheet) - https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
+
 ## Data
+
+Oman's Personal Data Protection Law (Royal Decree 6/2022, amended 2026) requires explicit consent (with some exceptions), a clear consent request naming the controller and data protection officer, risk controls and security measures, erasure when the purpose ends, breach notification to the Ministry and the citizen, and a Ministry permit for biometric data. Citizens may object to automated decisions and get human review. However, Article 3 excludes processing by state units performing their legal duties, so coverage needs checking.
+
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolidated) - https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
