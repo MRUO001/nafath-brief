@@ -43,4 +43,8 @@ Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolid
 
 ## Misconception in My Track
 
+Common belief: any MFA stops phishing, so adding a one-time code from an authenticator app or SMS is enough. This is wrong. A one-time code still works on a fake site: CISA's example describes a user who types their password and the 6-digit code from their authenticator app into a look-alike login portal controlled by an attacker. CISA rates app-based codes as vulnerable to phishing, and only FIDO/WebAuthn and PKI-based methods as phishing-resistant. Proof: CISA, "Implementing Phishing-Resistant MFA", Table 1 "MFA Forms, Strongest to Weakest".
+
 ## Open Question
+
+Which parts of the authority's login processing fall under the Article 3 government exemption in the amended PDPL, and does the citizen's Article 14 right to human review of automated decisions still apply to the AI fraud model?
